@@ -33,6 +33,8 @@ def GetpageOSINTinfo(pageid):
             if ('username' in jsr):
                 print "     Username:", jsr['username']
             
+            print "\n"
+
     except KeyError:
         print "\n    Looking user or group information ?"
         print "    Try the -u or -g option."

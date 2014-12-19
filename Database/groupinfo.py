@@ -40,6 +40,8 @@ def GetgroupOSINTinfo(groupid):
                 if ('id' in OwnerStuff):
                     print "     Owner ID:", OwnerStuff['id']
     
+            print "\n"
+        
     except KeyError:
         print "\n    Looking for page and or user information ?"
         print "    Try the -p or -u option."
