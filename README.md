@@ -10,6 +10,8 @@ Basic Usage:
             
             ./grapher -p <page name OR page ID number>
             
+            ./grapher -r <FB CDN Photo>
+            
             ./grapher -e <event ID number>
             
             ./grapher -g <group ID number> 
@@ -26,6 +28,8 @@ Basic Usage:
       	      | Keywords: "members" - see who are the members of a group.
       
       -u      | Get User information.
+      
+      -r      | Attempt to resolve a facebook CDN photo to a profile.
       
       -p      | Get Page information.
       
